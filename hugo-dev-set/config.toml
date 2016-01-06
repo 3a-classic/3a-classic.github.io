@@ -32,13 +32,9 @@ theme = "creative"
 
   [params.navigation.links]
     about        = "About"
-    greeting     = "Greeting"
-    rules        = "Rules"
-    lastwinner   = "Last Winner"
-    photogallery = "Photo Gallery"
-    history      = "History"
-    application  = "Application"
-    register     = "Register"
+    services     = "Services"
+    portfolio    = "Last Winner"
+    contact      = "Register"
 
 
   # Hero section
@@ -49,47 +45,40 @@ theme = "creative"
     buttonText = "Find out more"
 
 
-  # About section
-  [params.about]
-    headline    = "We've got what you need!"
-    description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-    buttonText  = "Get started!"
-
-
   # Greeting section
-  [params.greeting]
+  [params.about]
     headline    = "宮原会長のお言葉"
     description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
     buttonText  = "Get started!"
 
 
   # Service section
-  [params.rules]
+  [params.services]
     headline = "At your service"
 
-      [[params.rules.list]]
+      [[params.services.list]]
         icon = "fa-diamond"
         title = "Sturdy Templates"
         description = "Our templates are updated regularly so they don't break."
 
-      [[params.rules.list]]
+      [[params.services.list]]
         icon = "fa-paper-plane"
         title = "Ready to Ship"
         description = "You can use this theme as is, or you can make changes!"
 
-      [[params.rules.list]]
+      [[params.services.list]]
         icon = "fa-newspaper-o"
         title = "Up to Date"
         description = "We update dependencies to keep things fresh."
 
-      [[params.rules.list]]
+      [[params.services.list]]
         icon = "fa-heart"
         title = "Made with Love"
         description = "You have to make your websites with love these days!"
 
 
   # Last Winner modals
-  [params.lastwinner.modal]
+  [params.portfolio.modal]
         client = "Client"
         date = "Date"
         category = "Category"
@@ -103,46 +92,8 @@ theme = "creative"
       text = "Download now"
       link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
-
-  # Photo Gallery section
-  [params.photogallery]
-    headline    = "宮原会長のお言葉"
-    description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-    buttonText  = "Get started!"
-
-
-  # History section
-  [params.history]
-    headline    = "宮原会長のお言葉"
-    description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-    buttonText  = "Get started!"
-
-  # Application section
-  [params.application]
-    headline = "At your service"
-
-      [[params.application.list]]
-        icon = "fa-diamond"
-        title = "Sturdy Templates"
-        description = "Our templates are updated regularly so they don't break."
-
-      [[params.application.list]]
-        icon = "fa-paper-plane"
-        title = "Ready to Ship"
-        description = "You can use this theme as is, or you can make changes!"
-
-      [[params.application.list]]
-        icon = "fa-newspaper-o"
-        title = "Up to Date"
-        description = "We update dependencies to keep things fresh."
-
-      [[params.application.list]]
-        icon = "fa-heart"
-        title = "Made with Love"
-        description = "You have to make your websites with love these days!"
-
   # Register section
-  [params.register]
+  [params.contact]
     headline = "Let's Get In Touch!"
     description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
     phone = "123-456-6789"
