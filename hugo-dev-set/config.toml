@@ -1,4 +1,4 @@
-baseurl = "http://www.3a-classic.com/"
+baseurl = "http://3a-classic.github.io/"
 languageCode = "en-us"
 title = "3a-classic"
 theme = "creative"
