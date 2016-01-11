@@ -1,1 +1,3 @@
-hugo && cp -a ./public/* ../
+hugo
+cp -a ./public/* ../
+cp -a ./data/ ../data
