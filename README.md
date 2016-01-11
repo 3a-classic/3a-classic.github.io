@@ -1,6 +1,8 @@
 [![Stories in Ready](https://badge.waffle.io/3a-classic/3a-classic.github.io.png?label=ready&title=Ready)](https://waffle.io/3a-classic/3a-classic.github.io)
 # This is the site of 3A CLASSIC
 
+[![Join the chat at https://gitter.im/3a-classic/3a-classic.github.io](https://badges.gitter.im/3a-classic/3a-classic.github.io.svg)](https://gitter.im/3a-classic/3a-classic.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## For Developper
 
 This site created by hugo.
