@@ -17,11 +17,11 @@ test:
 
 deployment:
   production:
-    branch: master
+    branch: dev
     commands: 
       - go get -u -v github.com/spf13/hugo
-      - git clone git@github.com:3a-classic/3a-classic.github.io dev
-      - cd dev && git submodule add -f -b gh-pages git@github.com:3a-classic/3a-classic.github.io public
+      - git clone -b dev git@github.com:3a-classic/3a-classic.github.io dev
+      - cd dev && git submodule add -f -b master git@github.com:3a-classic/3a-classic.github.io public
       - rm -rf dev/public/*
       - cd dev && hugo
       - cd dev/public && git add -A
