@@ -1,35 +1,22 @@
-Photon by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# This is the site of 3A CLASSIC
 
+[![Stories in Ready](https://badge.waffle.io/3a-classic/3a-classic.github.io.png?label=ready&title=Ready)](https://waffle.io/3a-classic/3a-classic.github.io)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/3a-classic/3a-classic.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Join the chat at https://gitter.im/3a-classic/3a-classic.github.io](https://badges.gitter.im/3a-classic/3a-classic.github.io.svg)](https://gitter.im/3a-classic/3a-classic.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Apache2.0 License](http://img.shields.io/badge/license-Apache2.0-blue.svg?style=flat)](LICENSE)
 
-A simple (gradient-heavy) single pager that revisits a style I messed with on two
-previous designs (Tessellate and Telephasic). Fully responsive, built on Sass,
-and, as usual, loaded with an assortment of pre-styled elements. Have fun! :)
+## For Developper
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+This site created by hugo.
+Please refer to the following
 
-(* = Not included)
+```bash:cnosole
+$ brew install hugo # for mac
+$ git clone https://github.com/3a-classic/3a-classic.github.io.git
+$ cd 3a-classic.github.io
+```
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+```bash
+$ hugo server -t creative
+```
 
-AJ
-n33.co @n33co dribbble.com/n33
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
