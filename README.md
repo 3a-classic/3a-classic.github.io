@@ -13,12 +13,11 @@ Please refer to the following
 ```bash:cnosole
 $ brew install hugo # for mac
 $ git clone https://github.com/3a-classic/3a-classic.github.io.git
-$ cd hugo-dev-set
+$ cd 3a-classic.github.io
 ```
 
-After editing, please this command to build instead of 'hugo'.
-
-```bash:console
-$ sh build.sh
+```bash
+$ hugo server -t creative
 ```
+
 
