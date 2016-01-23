@@ -26,4 +26,4 @@ deployment:
       - cd dev && hugo
       - cd dev/public && git add -A
       - cd dev/public && git commit -m "[ci skip] publish" || true
-      - cd dev/public && git push origin gh-pages
+      - cd dev/public && git push origin master
